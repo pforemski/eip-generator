@@ -4,7 +4,7 @@ This repository hosts a new IPv6 address generator for [Entropy/IP](http://entro
 
 Note that Entropy/IP is patent pending, submitted as [application number 15618303](https://patents.google.com/patent/US20170359227A1/en) by Akamai Technologies, Inc. in 2016. However, an open source Entropy/IP implementation licensed for *non-commercial, academic research purposes* is available at https://github.com/akamai/entropy-ip.
 
-This project is independent and separate from the above, in the sense that it uses the Entropy/IP output as its own input to generate a possibly large set of IPv6 addresses matching the model. Thus, it is published under GNU GPL v3 with the intent of further popularization of Entropy/IP for IPv6 academic research.
+This project is independent and separate from the above, in the sense that it uses the Entropy/IP output as its own input to generate a possibly large set of IPv6 addresses matching the model. This code is published under GNU GPL v3 with the intent of further popularization of Entropy/IP for IPv6 academic research.
 
 This generator was used in the following ACM IMC2018 paper:
 
@@ -14,8 +14,8 @@ See [ipv6hitlist.github.io](https://ipv6hitlist.github.io/) for more details.
 
 # Prerequisites
 
-1. Install [Entropy/IP](http://entropy-ip.com/).
-1. Install [Go](https://www.golang.org/), eg.:
+1. Install [Entropy/IP](https://github.com/akamai/entropy-ip).
+1. Install [Go](https://www.golang.org/), e.g.:
 ```
 $ sudo apt-get install golang-go
 ```
